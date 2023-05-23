@@ -8,3 +8,32 @@ $fa-font-path: "../fonts/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
 @import '~bootstrap/scss/bootstrap';
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+// header
+header {
+    background-color: $orange_color;
+
+    #img_container img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    a.active {
+        border-bottom: 3px solid $primary_color;
+    }
+}
+
+// main
+main {
+    background-color: $main_bg;
+}
+
+// footer
+footer {
+    background-color: $dark_color;
+    height: 15rem;
+}
