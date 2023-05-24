@@ -1,7 +1,7 @@
 <header>
     <div class="container d-flex justify-content-between">
         <div id="img_container">
-            <a href="{{ route('pages.home') }}"><img src="img/dream_cinema.png" alt="dream_cinema_logo"></a>
+            <a href="{{ route('pages.home') }}"><img src="{{ asset('img/dream_cinema.png') }}" alt="dream_cinema_logo"></a>
         </div>
         <div id="navbar_container" class="pt-5">
             <nav class="navbar-nav">

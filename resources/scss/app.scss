@@ -30,6 +30,10 @@ header {
 // main
 main {
     background-color: $main_bg;
+
+    .card_container {
+        width: 50rem;
+    }
 }
 
 // footer

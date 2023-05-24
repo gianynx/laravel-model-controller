@@ -16,7 +16,7 @@ class BookController extends Controller
 
     public function show($id)
     {
-        $movies = Movie::find($id);
-        return view('pages.show', compact('movies'));
+        $movie = Movie::find($id);
+        return view('pages.show', compact('movie'));
     }
 }

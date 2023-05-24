@@ -11,8 +11,8 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-4 mb-4">
                     <div class="card">
                         <div class="card-body">
-                            <div class="card-image h-100">
-                                <a href="{{ route('pages.show', ['id' => $movie->id]) }}"><img class="img-fluid h-100"
+                            <div class="card-image">
+                                <a href="{{ route('pages.show', ['id' => $movie->id]) }}"><img class="img-fluid"
                                         src="{{ $movie['image'] }}" alt="{{ $movie['title'] }}">
                                 </a>
                             </div>
